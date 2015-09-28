@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+
+        <LinearLayout
+            android:id="@+id/ll_mycall_zhuti"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent" >
+
+            <com.example.sjyy_expert_android.util.XListView
+                android:id="@+id/lv_seeking"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent" >
+            </com.example.sjyy_expert_android.util.XListView>
+        </LinearLayout>
+        
+        <include layout="@layout/comm_bg_loadingfail"/>
+        <include layout="@layout/common_no_data"/>
+    </FrameLayout>
+
+</LinearLayout>

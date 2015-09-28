@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title"/>
+    
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:text="       私+医院旨在打造全球最大的互联网医疗服务平台，用互联网创新模式为全国医院、全球医生提供最优质的服务。利用互联网+市场化运营，帮助医院在第一时间精准预约到权威专家进行名医坐诊、主刀治疗、专家会诊等服务，让医生价值更加充分的发挥，让医疗资源配置更合理，更优化。" />
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:text="       私+医院将互联网+植入医疗，将医疗移动化，在缓解国内患者就医难，看病难问题的同时，也为医生的“多点执业”做出贡献。" />
+
+</LinearLayout>

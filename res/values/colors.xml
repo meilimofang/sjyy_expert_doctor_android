@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_bg">#4cd1c7</color>
+    <color name="app_bg">#f4f4f7</color>
+
+    <!-- 白色全透明 -->
+    <color name="transparent_bg">#00ffffff</color>
+    <!-- 白色半透明 -->
+    <color name="translucent">#7fffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="hui">#f8f4f5</color>
+    <color name="black">#000000</color>
+    <color name="black1">#55000000</color>
+    <color name="shape_bg">#ffcccccc</color>
+    <color name="white_bg">#ffffffff</color>
+    <color name="loading_bg">#96ffffff</color>
+    <color name="red">#fb2b1c</color>
+    <color name="hint_bg">#ffadadad</color>
+    <color name="gray">#ffaaaaaa</color>
+    <color name="hui1">#55555555</color>
+    <color name="hui3">#99555555</color>
+    <color name="hui2">#555555</color>
+    <color name="hui4">#fafafa</color>
+    <color name="hui5">#D1D1D1</color>
+    <color name="hui6">#cdcdcd</color>
+    <color name="history">#d6d6d6</color>
+    <color name="sencond_category">#e5e5e5</color>
+    <color name="blue">#6794e6</color>
+    <color name="drop_down_bg">#f0f0f0</color>
+    <color name="half_transparent_bg">#88000000</color>
+    <color name="font_orange">#4cd1c7</color>
+    <color name="font_grey">#7f7f7f</color>
+    <color name="lv">#9AEF86</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#ff9913</color>
+    <color name="orange2">#ff9000</color>
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="transparent_background">#50000000</color>
+    <color name="order_status_1">#ff7a19</color>
+    <color name="order_status_2">#ff7a19</color>
+    <color name="order_status_3">#8fc31f</color>
+    <color name="order_status_4">#7d7d7d</color>
+    <color name="order_status_5">#7d7d7d</color>
+    <color name="order_status_6">#8fc31f</color>
+    <color name="order_status_7">#ff7a19</color>
+    <color name="bg_orange">#ff7a19</color>
+    <color name="bg_green">#8fc31f</color>
+    <color name="bg_grey">#7d7d7d</color>
+    <color name="body_text_1">#ff000000</color>
+    <color name="body_text_2">#99000000</color>
+    <color name="body_text_disabled">#66000000</color>
+    <color name="body_text_1_inverse">#ffffffff</color>
+    <color name="body_text_2_inverse">#99ffffff</color>
+    <color name="accent_1">#ff29549f</color>
+    <color name="hyperlink">#ffff549f</color>
+    <color name="background_1">#ffffffff</color>
+    <color name="whats_on_separator">#4d000000</color>
+    <color name="all_track_color">#ff222222</color>
+    <color name="block_column_1">#ff0fabff</color>
+    <color name="block_column_2">#ffdf1831</color>
+    <color name="block_column_3">#ff009939</color>
+
+</resources>

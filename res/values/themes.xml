@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="SampleTheme" parent="@android:style/Theme">
+       
+    </style>
+    
+</resources>

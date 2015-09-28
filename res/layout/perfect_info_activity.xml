@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/common_title" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:id="@+id/ll_perfect_hos_area"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="#fff"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tv_perfect_hos_area"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="区域"
+            android:textColor="#333333"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|right" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/right" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_perfect_hos_name"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:hint="请输入医院名称"
+            android:textColor="#333333"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_perfect_hos_person"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:hint="请输入联系人"
+            android:textColor="#333333"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_perfect_hos_address"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:hint="请输入地址"
+            android:textColor="#333333"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_perfect_hos_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:hint="请填写移动电话"
+            android:textColor="#333333"
+            android:inputType="number"
+            android:maxLength="11"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_perfect_hos_summary"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:hint="请填写摘要"
+            android:textColor="#333333"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+    </LinearLayout>
+     <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#fff" >
+
+        <EditText
+            android:id="@+id/et_perfect_hos_number"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:hint="请填写热线电话"
+            android:textColor="#333333"
+            android:inputType="number"
+            android:textColorHint="#bebebe"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

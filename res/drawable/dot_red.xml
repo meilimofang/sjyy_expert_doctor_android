@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle" >
+
+    <solid android:color="#FF0000" />
+
+    <corners
+        android:bottomLeftRadius="@dimen/red_dot_radius"
+        android:bottomRightRadius="@dimen/red_dot_radius"
+        android:topLeftRadius="@dimen/red_dot_radius"
+        android:topRightRadius="@dimen/red_dot_radius" />
+
+    <!-- <stroke
+        android:width="2px"
+        android:color="#A3C5DD" />-->
+
+</shape>

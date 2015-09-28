@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <View
+                android:id="@+id/v_top"
+                android:layout_width="3px"
+                android:layout_height="22dp"
+                android:layout_marginLeft="27dp"
+                android:background="@color/hui6" />
+
+            <ImageView
+                android:id="@+id/iv_point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp" />
+
+            <View
+                android:id="@+id/v_bottom"
+                android:layout_width="3px"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="27dp"
+                android:background="@color/hui6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_user_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="用户已经下单"
+                android:textColor="@color/font_grey"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/tv_state_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="2015年3月4日    16 :11:45"
+                android:textColor="@color/font_grey"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="20dp"
+                android:background="@color/hui6" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

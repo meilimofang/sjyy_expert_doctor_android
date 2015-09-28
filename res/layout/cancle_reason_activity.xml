@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+    
+    <include layout="@layout/common_title"/>
+
+    <TextView
+        android:id="@+id/tv_reason_one"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:gravity="center|left"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:textColor="#999"
+        android:background="#fff"
+        android:text="原因一" />
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6"
+        />
+<TextView
+        android:id="@+id/tv_reason_two"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:textColor="#999"
+        android:background="#fff"
+        android:text="原因2" />
+
+
+ <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6"
+        />
+<TextView
+        android:id="@+id/tv_reason_three"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:textColor="#999"
+        android:background="#fff"
+        android:text="原因3" />
+
+ <View 
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/hui6"
+        />
+<TextView
+        android:id="@+id/tv_reason_four"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="16sp"
+        android:gravity="center|left"
+        android:paddingLeft="15dp"
+        android:textColor="#999"
+        android:background="#fff"
+        android:text="原因4" />
+
+</LinearLayout>
